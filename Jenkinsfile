@@ -51,6 +51,7 @@ pipeline {
         stage('Run Cypress Tests') {
             steps {
                 script {
+                    //TEST
                     // Run Cypress tests
                     bat 'npx cypress run --spec cypress/e2e/mainTest.cy.js'
                 }
